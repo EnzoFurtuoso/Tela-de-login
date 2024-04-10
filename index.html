@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Tela de Login</title>
 </head>
 <body>
-    <div>
+    <div class="container">
         <form>
             <h1>Entrar na Plataforma</h1>
-            <div>
+            <div class="input-container">
                 <input type="email" placeholder="Email" required>
-                <img width="20" height="20" src="https://img.icons8.com/officel/20/user.png" alt="user"/>
+                <img width="30" height="30" src="https://img.icons8.com/officel/30/user.png" alt="lock--v1"/>
             </div>
 
-            <div>
+            <div class="input-container">
                 <input type="password" placeholder="Senha" required>
-                <img width="20" height="20" src="https://img.icons8.com/plasticine/20/lock-2.png" alt="lock-2"/>
+                <img width="30" height="30" src="https://img.icons8.com/plasticine/30/lock-2.png" alt="lock-2"/>
                 <a href="#">Esqueci minha senha</a>
             </div>
 
-            <button type="submit">Entrar</button>
+            <button type="submit" class="submit-button">Entrar</button>
 
-            <div>
-                <p>Não está cadastrado ?<a href="#">Cadastrar</a></p>
+            <div class="registro-link">
+                <p>Não está cadastrado ? <a href="#">Cadastrar</a></p>
             </div>
 
         </form>
